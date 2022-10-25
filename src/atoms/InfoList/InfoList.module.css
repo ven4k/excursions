@@ -1,0 +1,40 @@
+.infoList{
+    margin-left: -2.5rem;
+}
+.infoList li{
+    height: 24px;
+    list-style: none;
+    background-image: url('../../assets/svg/checkmark.svg');
+    background-repeat: no-repeat;
+    color: #343434;
+    font-size: 1.125rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+    padding-left: 1.875rem;
+    background-position-y: 4px;
+    margin-top: 0.625rem;
+}
+@media screen and (min-width: 280px) and (max-width: 720px ){
+.infoList{
+    left: 0;
+}
+.infoList li{
+    margin-left: 0.875rem;
+    height: 24px;
+    list-style: none;
+    background-image: url('../../assets/svg/checkmark.svg');
+    background-repeat: no-repeat;
+    color: #343434;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+    padding-left: 1.875rem;
+    background-position-y: 4px;
+}
+.infoList li:nth-child(4){
+    position: relative;
+    margin-top: 0.875rem;
+    top: 0.875rem;
+}
+
+}

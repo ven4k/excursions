@@ -1,0 +1,27 @@
+.cost{
+    line-height: 1.25rem;
+    margin: 0.625rem 0.875rem 0 0;
+}
+.ticket{
+    font-size: 2.25rem;
+}
+.ticketPier{
+    margin-top: 4px;
+    font-size: 0.875rem;
+
+}
+
+@media screen and (min-width: 280px) and (max-width: 720px) {
+    .cost{
+        line-height: 1.25rem;
+        margin: 2.25rem 0 0 1.25rem;
+    }
+    .ticket{
+        font-size: 1.875rem;
+    }
+    .ticketPier{
+        margin-top: 4px;
+        font-size: 0.625rem;
+    
+    }
+}

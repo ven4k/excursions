@@ -1,0 +1,47 @@
+.ticketsSell{
+    left: -100px;
+    position: relative;
+    width: 1300px;
+
+}
+th, td{
+    padding: 30px;
+}
+.allTickets{
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.targetTickets{
+    border: 2px solid red;
+    width: 650px;
+}
+.ticketBuy{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10px;
+    border: 2px solid grey;
+}
+.ticketBuy select{
+    margin: 5px;
+}
+.manyTickets{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 650px;
+    border: 2px solid green;
+}
+.normalCostOfManyTickets{
+    position: relative;
+    color:red;
+}
+.lineOfSale{
+    position: absolute;
+    color: red;
+    top: -12px;
+    left: 12px;
+    font-size: 35px;
+    font-weight: 600;
+}

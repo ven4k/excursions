@@ -1,0 +1,98 @@
+main {
+    width: 1400px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 4.25rem 11.5rem 4.25rem 9.375rem;
+}
+
+.firstBlock {
+    position: relative;
+    display: flex;
+    border: 0.5px solid #8E8E8E;
+    border-radius: 15px;
+    width: 1070px;
+    height: 370px;
+}
+
+.newItem {
+    background-color: #099CE8;
+    text-align: center;
+    position: absolute;
+    width: 152px;
+    height: 42px;
+    top: 2.875rem;
+    padding: 0.625rem;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.25rem;
+}
+
+.firstPart {
+    margin-right: 1.375rem;
+}
+
+.firstPart img {
+    width: 473px;
+    height: 369px;
+}
+
+.infoListBlock {
+    margin-top: 0.625rem;
+}
+
+.timeButtonsBlock {
+    right: 4.5rem;
+    margin-top: -2.625rem;
+    position: absolute;
+}
+
+.advancedButtonBlock {
+    position: relative;
+    margin-top: 1.875rem;
+    display: flex;
+}
+
+.secondBlock {
+    position: relative;
+    margin-top: 3.75rem;
+    display: flex;
+    border: 0.5px solid #8E8E8E;
+    border-radius: 15px;
+    width: 1106px;
+    height: 370px;
+}
+
+
+.allYear {
+    background-color: #FFD83B;
+    text-align: center;
+    position: absolute;
+    width: 180px;
+    height: 45px;
+    top: 2.875rem;
+    padding: 0.8rem 0.625rem 0.5rem 0.625rem;
+    color: #000;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.25rem;
+}
+
+.thirdBlock {
+    position: relative;
+    margin-top: 3.75rem;
+    margin-bottom: 3rem;
+    display: flex;
+    border: 0.5px solid #8E8E8E;
+    border-radius: 15px;
+    width: 1106px;
+    height: 370px;
+}
+
+
+
+.timeButtonsSecondBlock {
+    right: 2rem;
+    margin-top: -2.625rem;
+    position: absolute;
+}

@@ -1,0 +1,32 @@
+.AdvancedButton{
+    background: #FFD83C;
+    border-radius: 23px;
+    width: 187px;
+    height: 52px;
+    border: none;
+    font-size: 1.125rem;
+    color: #292929;
+}
+.AdvancedButton:hover{
+    cursor: pointer;
+    outline: 2px solid black;
+}
+
+@media screen and (min-width: 280px) and (max-width: 720px) {
+    .AdvancedButton{
+        position: absolute;
+        right: 1.25rem;
+        margin-top: 2.25rem;
+        background: #FFD83C;
+        border-radius: 23px;
+        width: 165px;
+        height: 44px;
+        border: 0.5px solid #CBA500;
+        font-size: 0.875rem;
+        color: #292929;
+    }
+    .AdvancedButton:hover{
+        cursor: pointer;
+        outline: 2px solid black;
+    }
+}
