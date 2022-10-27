@@ -23,25 +23,47 @@ th, td{
     margin-top: 10px;
     border: 2px solid grey;
 }
-.ticketBuy select{
+.currTicket{
+    margin: 15px 0 15px 0;
+    border: 2px solid grey;
+    width: 250px;
+}
+select{
     margin: 5px;
 }
-.manyTickets{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 650px;
-    border: 2px solid green;
-}
-.normalCostOfManyTickets{
+
+.tableBlock{
     position: relative;
-    color:red;
 }
-.lineOfSale{
+.hiddenTable{
+    visibility: hidden;
+    font-size: 14px;
+    left: -30%;
+    background-color: #f7f7f7;
     position: absolute;
-    color: red;
-    top: -12px;
-    left: 12px;
-    font-size: 35px;
-    font-weight: 600;
+    display: block;
+}
+.hiddenTable th, td{
+    padding: 10px;
+}
+.lastTd{
+    margin-top: 20px;
+    display: block;
+    text-align: center;
+    display: flex;
+    width: 100px;
+    display: block
+}
+.lastTd span{
+    display: block;
+}
+
+.closeAdvancedBtn {
+    position: absolute;
+    top: -40px;
+    right: 0;
+    font-size: 25px;
+}
+.closeAdvancedBtn:hover {
+    cursor: pointer;
 }
