@@ -10,7 +10,7 @@ const App = () => {
  
 
 const handleResize = () => {
-  if (window.innerWidth < 720) {
+  if (window.screen.width < 720) {
       setIsMobile(true)
   } else {
       setIsMobile(false)
