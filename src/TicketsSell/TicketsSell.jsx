@@ -130,8 +130,6 @@ export const TicketsSell = () => {
     }
     const thTable = ['id', 'event_id', 'event_date', 'total_tickets', 'barcode_order', 'user_id', 'equal_price', 'created']
     const thHiddenTable = ['id', 'event_id', 'event_date', 'event_back_date', 'total_tickets', 'ticket_adult_quantity', 'ticket_adult_price', 'ticket_kid_quantity', 'ticket_kid_price', 'ticket_discont_quantity', 'ticket_discont_price', 'ticket_dual_quantity', 'ticket_dual_price', 'equal_price', 'barcode_ticket']
-
-    console.log(tickets.filter(el => (!el.type && !el.direction && !el.date && !el?.backDate)));
     return (
         <div>
             <div>
